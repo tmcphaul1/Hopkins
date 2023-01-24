@@ -1,31 +1,20 @@
-github add file "git add ." ~ this will add all files within the repository
+#Process for adding files to a repository and commiting changes to an existing file
 
-check github status "git status"
+echo "# myrepo" >> README.md # creates a new repository via command line
+git init
 
-git commit m- "" ~ set commit
+touch file.txt #used to create a file
+	#Make sure tu run terminal within file folder
 
-git push u- origin main ~ send to github
+git remote add origin INSERT REPO URL.git
+
+git add . #this will add all files within the repository
+
+git status #check process throughout each stage
+
+git commit -m "" #write commit note
+
+git push -u origin main # send commit to git
 
 username - tmcphaul1
-password API- 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
-
-
-Compelte guide
-
-Get started by creating a new file or uploading an existing file. We recommend every repository include a README, LICENSE, and .gitignore.
-
-…or create a new repository on the command line
-
-echo "# myrepo" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git remote add origin https://github.com/INSERT REPO URL/.git
-git push -u origin main
-…or push an existing repository from the command line
-
-git remote add origin https://github.com/INSERT REPO URL.git
-git pull origin master --allow-unrelated-histories
-git commit -m "merge"
-git push -u origin main
-…or import code from another repository
+password API-
