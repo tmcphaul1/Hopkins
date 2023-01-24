@@ -2,4 +2,12 @@ github add file "git add ." ~ this will add all files within the repository
 
 check github status "git status"
 
+git commit m- "" ~ set commit
+
+git push u- origin main ~ send to github
+
+username - tmcphaul1
+
+password API- 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
+
 
