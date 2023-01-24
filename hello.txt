@@ -1,1 +1,5 @@
-github text file
+github add file "git add ." ~ this will add all files within the repository
+
+check github status "git status"
+
+
